@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form method="POST">
+        <fieldset>
+            <legend>Данни за клиента</legend>
+        </fieldset>
+    </form>
+    <div>
+        <label for="Name">Име</label>
+        <!-- vavejdame ime -->
+
+        <input type="text" name="Name" id="Name" placeholder="David"></div>
+    <label for="Lastname">Фамилия</label>
+
+    <input type="text" name="Lastname" id="Name" placeholder="Beckam"></div>
+
+
+    <label for="Gender" name="gender">Пол: </label>
+    <select name="Gender" id="gender">
+    <option value="female" selected>жена</option>
+    <option value="male" selected>мъж</option>
+    <option value="other" selected>друго</option>
+    </select>
+
+
+
+    <label for="phoneMethod"> Домашен тел.номер</label>
+    <input type="text" name="phone" id="phone" placeholder="+3598899995">
+
+    <label for="email">Имейл</label>
+
+    <input type="email" name="email" id="email" placeholder="your@email.com">
+    </div>
+
+    <!-- Колонката -->
+
+    <div>
+        <label for="password">Парола</label>
+        <input type="password" name="password" id="password">
+        <label for="password">Повторете паролата</label>
+        <input type="password" name="password" id="password">
+    </div>
+
+
+    <div>
+        <label for=" town ">Град</label>
+        <select name="town " id="town ">
+            <option value="Varna "selected>Варна</option>
+            <option value="Plovdiv ">Пловдив</option>
+            <option value="Burgas ">Бургас</option>
+            <option value="Sofia ">София</option>
+            <option value="Pleven ">Плевен</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="age ">Възраст</label>
+        <input type="number " name="age " id="age " min="18 " max="100 ">
+    </div>
+
+    <div>
+        <label for="programming ">Изберете курс: </label>
+        <input list="languages " name="programming " id="programming ">
+
+        <datalist id="languages ">
+            <option value="Java ">
+                <option value="PHP ">
+                    <option value="C# ">
+                        <option value="JavaScript ">
+                            <option value="Python ">
+                                <option value="Ruby ">
+                                    <option value="Other ">
+                                    </datalist>
+    </div>
+    <label for="programming ">Забележки: </label>
+    <!-- comments -->
+
+    <div>
+
+        <textarea cols="20" rows="5" placeholder="More information... "></textarea>
+    </div>
+
+    <div>
+        <input type="checkbox" name="terms" id="terms" checked>
+        <label for="terms">Съгласявам се с общите условия</label>
+    </div>
+
+    <div>
+        <input type="submit" value="send">
+    </div>
+    </fieldset>
+    </form>
+</body>
+
+</html>
+
+</html>
