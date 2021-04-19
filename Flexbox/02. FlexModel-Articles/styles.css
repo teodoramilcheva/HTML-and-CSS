@@ -1,0 +1,43 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    font-size: 1em;
+    line-height: 1.2;
+}
+
+article img {
+    padding: 380px;
+    margin-bottom: -750px;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 70vw;
+    margin: 0 auto;
+}
+
+section article {
+    max-width: 300px;
+}
+
+article img.right {
+    float: right;
+    margin-left: 150px;
+}
+
+article img.left {
+    float: left;
+    margin-right: 15px;
+}
+
+footer {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 200px;
+    margin-right: 400px;
+}

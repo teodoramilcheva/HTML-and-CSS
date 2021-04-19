@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    background: rgb(238, 238, 238);
+    display: flex;
+    align-content: center;
+}
+
+section.container {
+    display: flex;
+    width: 60%;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+}
+
+section.container article {
+    display: flex;
+    overflow: hidden;
+    margin: 8px;
+    flex-basis: 12em;
+    border-radius: 12px;
+    box-shadow: 0px 0px 45px 6px rgba(0, 0, 0, 0.43);
+    min-height: 400px;
+}
+
+section.container article:nth-child(2) {
+    flex-grow: 2;
+}
