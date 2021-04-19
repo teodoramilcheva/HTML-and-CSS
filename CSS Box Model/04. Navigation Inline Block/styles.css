@@ -1,0 +1,29 @@
+html {
+    margin: 40px 60px;
+    font-family: Helvetica, sans-serif;
+}
+
+hr {
+    color: black;
+    border: 1px solid black;
+}
+
+nav {
+    display: inline-block;
+}
+
+^^nav h1 {
+    display: inline-block;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: rgb(255, 102, 102);
+    text-decoration: none;
+    margin: 15px
+}
